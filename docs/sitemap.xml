@@ -38,6 +38,10 @@
         <loc>https://picklenerd.github.io/blog/page/2/</loc>
     </url>
     <url>
+        <loc>https://picklenerd.github.io/blog/pngme-book/</loc>
+        <lastmod>2019-06-02T09:44:00-04:00</lastmod>
+    </url>
+    <url>
         <loc>https://picklenerd.github.io/blog/quick-detour/</loc>
         <lastmod>2017-09-10T22:00:00-04:00</lastmod>
     </url>
@@ -56,6 +60,12 @@
     </url>
     <url>
         <loc>https://picklenerd.github.io/blog/tags/learning-rust/page/2/</loc>
+    </url>
+    <url>
+        <loc>https://picklenerd.github.io/blog/tags/tutorials/</loc>
+    </url>
+    <url>
+        <loc>https://picklenerd.github.io/blog/tags/tutorials/page/1/</loc>
     </url>
     <url>
         <loc>https://picklenerd.github.io/blog/the-first-two-weeks/</loc>
