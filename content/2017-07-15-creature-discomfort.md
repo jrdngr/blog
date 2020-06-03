@@ -91,4 +91,4 @@ Here's a pretty picture.
 
 ![pretty-picture][img-purdy]
 
-[img-purdy]: https://picklenerd.github.io/images/mlh3.gif
+[img-purdy]: https://picklenerd.github.io/blog/images/mlh3.gif
