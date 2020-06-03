@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://picklenerd.github.io/</loc>
+        <loc>https://picklenerd.github.io/blog/</loc>
     </url>
     <url>
-        <loc>https://picklenerd.github.io/creature-discomfort/</loc>
+        <loc>https://picklenerd.github.io/blog/creature-discomfort/</loc>
         <lastmod>2017-07-15T15:00:00-04:00</lastmod>
     </url>
     <url>
-        <loc>https://picklenerd.github.io/evolution/</loc>
+        <loc>https://picklenerd.github.io/blog/evolution/</loc>
         <lastmod>2017-08-15T08:00:00-04:00</lastmod>
     </url>
     <url>
-        <loc>https://picklenerd.github.io/iterator-quest/</loc>
+        <loc>https://picklenerd.github.io/blog/iterator-quest/</loc>
         <lastmod>2017-07-12T22:00:00-04:00</lastmod>
     </url>
     <url>
-        <loc>https://picklenerd.github.io/learned-rust/</loc>
+        <loc>https://picklenerd.github.io/blog/learned-rust/</loc>
         <lastmod>2017-08-21T23:00:00-04:00</lastmod>
     </url>
     <url>
-        <loc>https://picklenerd.github.io/learning-rust-intro/</loc>
+        <loc>https://picklenerd.github.io/blog/learning-rust-intro/</loc>
         <lastmod>2017-07-11T21:56:00-04:00</lastmod>
     </url>
     <url>
-        <loc>https://picklenerd.github.io/like-an-onion/</loc>
+        <loc>https://picklenerd.github.io/blog/like-an-onion/</loc>
         <lastmod>2017-07-18T22:00:00-04:00</lastmod>
     </url>
     <url>
-        <loc>https://picklenerd.github.io/my-little-hab/</loc>
+        <loc>https://picklenerd.github.io/blog/my-little-hab/</loc>
         <lastmod>2017-07-12T08:25:00-04:00</lastmod>
     </url>
     <url>
-        <loc>https://picklenerd.github.io/page/1/</loc>
+        <loc>https://picklenerd.github.io/blog/page/1/</loc>
     </url>
     <url>
-        <loc>https://picklenerd.github.io/page/2/</loc>
+        <loc>https://picklenerd.github.io/blog/page/2/</loc>
     </url>
     <url>
-        <loc>https://picklenerd.github.io/quick-detour/</loc>
+        <loc>https://picklenerd.github.io/blog/quick-detour/</loc>
         <lastmod>2017-09-10T22:00:00-04:00</lastmod>
     </url>
     <url>
-        <loc>https://picklenerd.github.io/round-2/</loc>
+        <loc>https://picklenerd.github.io/blog/round-2/</loc>
         <lastmod>2017-07-31T20:00:00-04:00</lastmod>
     </url>
     <url>
-        <loc>https://picklenerd.github.io/tags/</loc>
+        <loc>https://picklenerd.github.io/blog/tags/</loc>
     </url>
     <url>
-        <loc>https://picklenerd.github.io/tags/learning-rust/</loc>
+        <loc>https://picklenerd.github.io/blog/tags/learning-rust/</loc>
     </url>
     <url>
-        <loc>https://picklenerd.github.io/tags/learning-rust/page/1/</loc>
+        <loc>https://picklenerd.github.io/blog/tags/learning-rust/page/1/</loc>
     </url>
     <url>
-        <loc>https://picklenerd.github.io/tags/learning-rust/page/2/</loc>
+        <loc>https://picklenerd.github.io/blog/tags/learning-rust/page/2/</loc>
     </url>
     <url>
-        <loc>https://picklenerd.github.io/the-first-two-weeks/</loc>
+        <loc>https://picklenerd.github.io/blog/the-first-two-weeks/</loc>
         <lastmod>2017-07-12T19:00:00-04:00</lastmod>
     </url>
     <url>
-        <loc>https://picklenerd.github.io/the-plan-has-changed-nothing-is-changing/</loc>
+        <loc>https://picklenerd.github.io/blog/the-plan-has-changed-nothing-is-changing/</loc>
         <lastmod>2017-07-13T22:30:00-04:00</lastmod>
     </url>
 </urlset>

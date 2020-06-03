@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 	<title>picklenerd - learning-rust</title>
-	<link href="https://picklenerd.github.io/tags/learning-rust/atom.xml" rel="self" type="application/atom+xml"/>
-	<link href="https://picklenerd.github.io"/>
+	<link href="https://picklenerd.github.io/blog/tags/learning-rust/atom.xml" rel="self" type="application/atom+xml"/>
+	<link href="https://picklenerd.github.io/blog"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2017-08-21T23:00:00-04:00</updated>
-	<id>https://picklenerd.github.io/tags/learning-rust/atom.xml</id>
+	<id>https://picklenerd.github.io/blog/tags/learning-rust/atom.xml</id>
 	<entry xml:lang="en">
 		<title>Learning Rust 10: Learned Rust</title>
 		<published>2017-08-21T23:00:00-04:00</published>
 		<updated>2017-08-21T23:00:00-04:00</updated>
-		<link href="https://picklenerd.github.io/learned-rust/" type="text/html"/>
-		<id>https://picklenerd.github.io/learned-rust/</id>
+		<link href="https://picklenerd.github.io/blog/learned-rust/" type="text/html"/>
+		<id>https://picklenerd.github.io/blog/learned-rust/</id>
 		<content type="html">&lt;p&gt;I took a break from this for a few days.  After having the brilliant idea to rip my systems apart after rebuilding them for the 4th time, I had the even more brilliant idea to undo all of that ripping and go back to when it still compiled.  At some point, I&#x27;ll have to write something new instead of writing the same thing over and over.&lt;&#x2F;p&gt;
 &lt;p&gt;So here I am, two months after deciding to tackle Rust and port over my main project.  I&#x27;m feeling pretty confident with Rust at this point, and it has basically poisoned every other part of my life.  My Java code at work is changing, I check the subreddit and forums multiple times every day, and I can&#x27;t even open Unity anymore without feeling like I&#x27;m in the wrong place.&lt;&#x2F;p&gt;
 &lt;p&gt;I still want to dump Piston, but I think it&#x27;s the wrong time.  I&#x27;d like to start my dive into graphics programming with Vulkan (I know, shut up) but I need a laptop that supports it first and I&#x27;m not getting one until I can buy a Surface Book 2.  So maybe never.&lt;&#x2F;p&gt;
@@ -69,8 +69,8 @@
 		<title>Learning Rust 9: Evolution</title>
 		<published>2017-08-15T08:00:00-04:00</published>
 		<updated>2017-08-15T08:00:00-04:00</updated>
-		<link href="https://picklenerd.github.io/evolution/" type="text/html"/>
-		<id>https://picklenerd.github.io/evolution/</id>
+		<link href="https://picklenerd.github.io/blog/evolution/" type="text/html"/>
+		<id>https://picklenerd.github.io/blog/evolution/</id>
 		<content type="html">&lt;p&gt;This project has been progressing slowly for the past few weeks.  I was losing motivations quickly as this is the fourth or fifth time that I&#x27;ve re-written this same system.  As of Sunday, it finally worked again, and I had my plan rewritten.  Layers are good, grid mutation is good, actions are good.&lt;&#x2F;p&gt;
 &lt;p&gt;Then I realized that the evolution system that I&#x27;m working toward probably won&#x27;t fit in to this system very well.  I&#x27;m making a system where I can design creatures with specific behaviors that are dynamically tweaked as they &amp;quot;evolve&amp;quot; the parameters for those behaviors.  I want a system where creatures design themselves and whose behavior is based entirely on a set of parameters.  That&#x27;s going to be a lot more challenging and I still like the first system, so it would be nice to have both.&lt;&#x2F;p&gt;
 &lt;p&gt;I decided that grid management should be a trait instead of a struct since this overall grid construct is pretty reusable.&lt;&#x2F;p&gt;
@@ -92,8 +92,8 @@
 		<title>Learning Rust 8: Round Two</title>
 		<published>2017-07-31T20:00:00-04:00</published>
 		<updated>2017-07-31T20:00:00-04:00</updated>
-		<link href="https://picklenerd.github.io/round-2/" type="text/html"/>
-		<id>https://picklenerd.github.io/round-2/</id>
+		<link href="https://picklenerd.github.io/blog/round-2/" type="text/html"/>
+		<id>https://picklenerd.github.io/blog/round-2/</id>
 		<content type="html">&lt;p&gt;I&#x27;ve spent the last two weeks trying to get layers working.  Instead of a single organism occupying a cell it would occupy a layer within the cell.  The the color of the cell would be that of the topmost cell and each organism would be able to decide whether or not it interacted with other cells.&lt;&#x2F;p&gt;
 &lt;p&gt;This would have allowed things like cows walking over grass without eating it.  More importantly, it would have allowed me to have a ground layer simulation that happened separately from the creature layer.  Once evolution was in place, that could make the results a lot more dynamic.&lt;&#x2F;p&gt;
 &lt;p&gt;Anyway, none of that worked.  Every little change I made propogated errors all over the place.  I basically rewrote the whole thing over and over one error at a time.  And it never compiled.  Not once.&lt;&#x2F;p&gt;
@@ -106,8 +106,8 @@
 		<title>Learning Rust 7: Like an Onion</title>
 		<published>2017-07-18T22:00:00-04:00</published>
 		<updated>2017-07-18T22:00:00-04:00</updated>
-		<link href="https://picklenerd.github.io/like-an-onion/" type="text/html"/>
-		<id>https://picklenerd.github.io/like-an-onion/</id>
+		<link href="https://picklenerd.github.io/blog/like-an-onion/" type="text/html"/>
+		<id>https://picklenerd.github.io/blog/like-an-onion/</id>
 		<content type="html">&lt;p&gt;I started implementing separate layers for the ground and the creatures that walk on top of the ground.  It was a little too specialized and awkward to work with.&lt;&#x2F;p&gt;
 &lt;p&gt;Instead, grid cells now have layers.  Each cell has a &lt;code&gt;u8&lt;&#x2F;code&gt; to &lt;code&gt;Organism&lt;&#x2F;code&gt; map representing each layer and the organism that occupies it.  The &lt;code&gt;get_color&lt;&#x2F;code&gt; method now returns the color of the topmost layer, and the ColorEnumerator automatically works correctly because it was already using get_color.&lt;&#x2F;p&gt;
 &lt;p&gt;The additions were easy.  The modifications are a bit trickier.  Anything that accesses a cell now needs to specify a layer, and there&#x27;s a lot of code that accesses cells.  Most of the ugliness will be abstracted over at the organism level, but rewriting the main loop and the rest of the backend is taking a while.&lt;&#x2F;p&gt;
@@ -121,8 +121,8 @@
 		<title>Learning Rust 6: Creature Discomfort</title>
 		<published>2017-07-15T15:00:00-04:00</published>
 		<updated>2017-07-15T15:00:00-04:00</updated>
-		<link href="https://picklenerd.github.io/creature-discomfort/" type="text/html"/>
-		<id>https://picklenerd.github.io/creature-discomfort/</id>
+		<link href="https://picklenerd.github.io/blog/creature-discomfort/" type="text/html"/>
+		<id>https://picklenerd.github.io/blog/creature-discomfort/</id>
 		<content type="html">&lt;p&gt;I&#x27;m finally settling into a creature design.  I&#x27;ve tried several other setups, but I still like having a generic creature struct with a function pointer for behavior.  It fits well with the two roles that a creature has to fill, storing information about its state, and determining what to do next time it gets a turn.  Any properties specific to that creature are stored in its &lt;code&gt;properties&lt;&#x2F;code&gt; HashMap.&lt;&#x2F;p&gt;
 &lt;p&gt;This is how the plant is currently defined.&lt;&#x2F;p&gt;
 &lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
@@ -202,8 +202,8 @@
 		<title>Learning Rust 5: The Plan Has Changed.  Nothing is Changing.</title>
 		<published>2017-07-13T22:30:00-04:00</published>
 		<updated>2017-07-13T22:30:00-04:00</updated>
-		<link href="https://picklenerd.github.io/the-plan-has-changed-nothing-is-changing/" type="text/html"/>
-		<id>https://picklenerd.github.io/the-plan-has-changed-nothing-is-changing/</id>
+		<link href="https://picklenerd.github.io/blog/the-plan-has-changed-nothing-is-changing/" type="text/html"/>
+		<id>https://picklenerd.github.io/blog/the-plan-has-changed-nothing-is-changing/</id>
 		<content type="html">&lt;p&gt;Last night the slowness of my program got to me.  As part of my attempt to speed up rendering, I decided that I&#x27;d switch out &lt;code&gt;piston&lt;&#x2F;code&gt; for &lt;code&gt;gfx-rs&lt;&#x2F;code&gt; early and just do everything directly.  This would probably be a bit slower in the near-term since I don&#x27;t know what I&#x27;m doing, but it would probably be faster in the future since I wouldn&#x27;t have any overhead from stuff in &lt;code&gt;piston&lt;&#x2F;code&gt; that I&#x27;m not taking advantage of.&lt;&#x2F;p&gt;
 &lt;p&gt;Then I remembered that I can change the optimization level of the compiler.  Since I hadn&#x27;t done it yet, I maxed it out and ran the program.  It&#x27;s incredibly fast.  So fast that I&#x27;ll have to slow everything down to make it look pretty again.  This shouldn&#x27;t really be a surprise considering how simple this program is at the moment.  I was actually starting to feel disappointed that Rust wasn&#x27;t helping my performace at all.  Now I&#x27;m absolutely thrilled that I managed to get things running in Rust.  This is going to be so awesome.&lt;&#x2F;p&gt;
 &lt;p&gt;The other problem I ran into was some obnoxiously complicated code when I tried to add properties to my creatures.  Since creatures are implemented as a struct with a function pointer to their behavior, the behavior isn&#x27;t a method.  Now I have to pass into the function any information about that creature that I want to use, even though conceptually this action is running on the creature.  &lt;em&gt;Now that I&#x27;ve typed this out, I can obviously just pass the creature struct instance.  Duh.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
@@ -231,8 +231,8 @@ Given that I already had this act method wrapping the internal function, this wa
 		<title>Learning Rust 4: Iterator Quest</title>
 		<published>2017-07-12T22:00:00-04:00</published>
 		<updated>2017-07-12T22:00:00-04:00</updated>
-		<link href="https://picklenerd.github.io/iterator-quest/" type="text/html"/>
-		<id>https://picklenerd.github.io/iterator-quest/</id>
+		<link href="https://picklenerd.github.io/blog/iterator-quest/" type="text/html"/>
+		<id>https://picklenerd.github.io/blog/iterator-quest/</id>
 		<content type="html">&lt;p&gt;Today I was going to write a proper iterator for my grid.  After rereading the &lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;std&#x2F;iter&#x2F;&quot;&gt;documentation for iterators&lt;&#x2F;a&gt;, I was feeling pretty confident.  I wrote myself a nice little iterator that wrapped the regular &lt;code&gt;Vec&lt;&#x2F;code&gt; iterator.  Worked like a charm.  I think the reason I was struggling so much before is because of the things I was trying to do within the &lt;code&gt;for&lt;&#x2F;code&gt; loop, not the loop itself.&lt;&#x2F;p&gt;
 &lt;p&gt;Of course once I was ready to use my new iterator, I realized that the queue system I use for grid updates completely circumvents the need to loop over each cell&#x27;s creature.&lt;&#x2F;p&gt;
 &lt;p&gt;On the other hand, I do loop over every cell in the render loop.  Previously, I had the grid generate a vector containing just its color information, then pass that to the rendering code.  I wrote another iterator, this time for the color information, and dropped it in to the rendering code without issue.  Woo!&lt;&#x2F;p&gt;
@@ -247,8 +247,8 @@ Given that I already had this act method wrapping the internal function, this wa
 		<title>Learning Rust 3: The First Two Weeks</title>
 		<published>2017-07-12T19:00:00-04:00</published>
 		<updated>2017-07-12T19:00:00-04:00</updated>
-		<link href="https://picklenerd.github.io/the-first-two-weeks/" type="text/html"/>
-		<id>https://picklenerd.github.io/the-first-two-weeks/</id>
+		<link href="https://picklenerd.github.io/blog/the-first-two-weeks/" type="text/html"/>
+		<id>https://picklenerd.github.io/blog/the-first-two-weeks/</id>
 		<content type="html">&lt;p&gt;I intended to write about my experience learning Rust from the beginning, but I was too obsessed with writing the code to stop.  I&#x27;m going to try to recap the past two weeks below.  It&#x27;s long, so here are my main takeaways from this process.&lt;&#x2F;p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -315,8 +315,8 @@ Given that I already had this act method wrapping the internal function, this wa
 		<title>Learning Rust 2: The Project</title>
 		<published>2017-07-12T08:25:00-04:00</published>
 		<updated>2017-07-12T08:25:00-04:00</updated>
-		<link href="https://picklenerd.github.io/my-little-hab/" type="text/html"/>
-		<id>https://picklenerd.github.io/my-little-hab/</id>
+		<link href="https://picklenerd.github.io/blog/my-little-hab/" type="text/html"/>
+		<id>https://picklenerd.github.io/blog/my-little-hab/</id>
 		<content type="html">&lt;p&gt;The project I&#x27;m building in Rust is something I&#x27;ve been wanting to make for a long time.  It&#x27;s a graphical grid-based life simulator.  You can play with the most recent web version &lt;a href=&quot;http:&#x2F;&#x2F;picklenerd.com&#x2F;mylittlehab&#x2F;&quot;&gt;here&lt;&#x2F;a&gt;.  Pick a creature on the right and draw with it in the box on the left.&lt;&#x2F;p&gt;
 &lt;p&gt;I started with a web version so that it could be widely accessible and people definitely seem to enjoy the early versions, but I&#x27;m already running into performance issues and there are a lot of features that I&#x27;d like to implement that will bog it down even more, which is why I&#x27;m focusing on the &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;picklenerd&#x2F;my-little-habitat&quot;&gt;Rust version&lt;&#x2F;a&gt; first.  I&#x27;d like to port what I can back to the web eventually.&lt;&#x2F;p&gt;
 &lt;p&gt;Some of the features that will eventually be added are:&lt;&#x2F;p&gt;
@@ -340,8 +340,8 @@ Given that I already had this act method wrapping the internal function, this wa
 		<title>Learning Rust 1: Intro</title>
 		<published>2017-07-11T21:56:00-04:00</published>
 		<updated>2017-07-11T21:56:00-04:00</updated>
-		<link href="https://picklenerd.github.io/learning-rust-intro/" type="text/html"/>
-		<id>https://picklenerd.github.io/learning-rust-intro/</id>
+		<link href="https://picklenerd.github.io/blog/learning-rust-intro/" type="text/html"/>
+		<id>https://picklenerd.github.io/blog/learning-rust-intro/</id>
 		<content type="html">&lt;p&gt;I have this little &lt;a href=&quot;http:&#x2F;&#x2F;picklenerd.com&#x2F;mylittlehab&#x2F;&quot;&gt;pet project&lt;&#x2F;a&gt; that I&#x27;ve been thinking about for years.  I finally started working on it a few months ago, first in plain Javascript, then in Typescript.  Once the basics were in place, it seemed pretty unlikely that a web browser was going to be able to handle everything I wanted to do.&lt;&#x2F;p&gt;
 &lt;p&gt;And so I decided that it was finally time to learn Rust.  I read the &lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;book&#x2F;first-edition&#x2F;&quot;&gt;old book&lt;&#x2F;a&gt; late last year and I loved the ideas behind the whole language but I got bored working through the learning resources I found online.  After reading about &lt;a href=&quot;https:&#x2F;&#x2F;blog.rust-lang.org&#x2F;2017&#x2F;06&#x2F;27&#x2F;Increasing-Rusts-Reach.html&quot;&gt;Increasing Rust&#x27;s Reach&lt;&#x2F;a&gt;, I got motivated to try again.  This time, I had the ridiculously awesome &lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;book&#x2F;second-edition&#x2F;&quot;&gt;new book&lt;&#x2F;a&gt; and a project to work on.  Given the Rust team&#x27;s efforts to make the language easier to learn, I wanted to document the learning process from the beginning.  It&#x27;s two weeks past the beginning now so I&#x27;ll have to catch up a bit.&lt;&#x2F;p&gt;
 &lt;p&gt;Now I&#x27;m going to add some Jekyll &lt;code&gt;features&lt;&#x2F;code&gt; to this post so that I don&#x27;t have to look them up in the future.&lt;&#x2F;p&gt;
