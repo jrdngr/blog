@@ -1,0 +1,6 @@
+#!/bin/bash
+
+zola build --output-dir docs
+git add .
+git commit -m "Publishing new posts"
+git push
