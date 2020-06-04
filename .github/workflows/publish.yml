@@ -16,8 +16,6 @@ jobs:
           | sudo tar xzf - -C /usr/local/bin
       - name: Checking out
         uses: actions/checkout@v2
-        with: 
-          submodules: 'true'
       - name: Build
         run: zola build --output-dir docs
       - name: Configure git
