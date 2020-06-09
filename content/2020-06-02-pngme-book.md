@@ -1,5 +1,5 @@
 +++
-title = "PNGme: An Intermediate Rust Tutorial"
+title = "PNGme: An Intermediate Rust Project"
 date =  2019-06-02T09:44:00-04:00
 
 [taxonomies]
