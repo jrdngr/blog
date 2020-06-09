@@ -25,4 +25,4 @@ jobs:
       - name: Move files
         run:  cp -r public/* ./ && rm -rf public
       - name: Push gh-pages branch
-      - run: git add . && git commit -m "Publishing" && git push
+        run: git add . && git commit -m "Publishing" && git push
